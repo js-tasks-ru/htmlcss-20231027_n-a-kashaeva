@@ -36,3 +36,26 @@
     pointer-events: none;
     opacity: 0.50;
 }
+.button_icon {
+    width: 24px;
+    height: 24px;
+    color: black;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+@media screen and (min-width: 568px) {
+    .button_icon {
+        display: none;
+    }
+}
+
+.button_icon_close_style {
+    background-color: var(--grey-2);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
